@@ -1,0 +1,158 @@
+body{
+	background-color: #cae4e8;
+}
+.navbar a{
+	text-decoration: none;
+	color:white;
+	margin:10px;
+	float:left;
+	padding: 20px;
+	font-family: 'Nunito', sans-serif;
+}
+.navbar{
+	background-color:#706e70;
+	height:100px;
+	width:750px;
+	border-radius:15px;
+	position:sticky;
+}
+.navbar a:nth-child(5){
+	height:30px;
+	width: 80px;
+	background-color:#e31010;
+	color: black;
+	border-radius:20px;
+}
+.navbar a:hover{
+	color:gold;
+	font-family: 'Nunito', sans-serif;
+	text-decoration:underline;
+}
+.section1 {
+    height: 350px;
+    width: 100%;
+    background-color: #ffcdb2;
+    border-radius: 25px;
+    background-image: url('images/aboutus.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin-top: 50px; /* Adjust according to navbar height */
+}
+
+.section1 h2 {
+    margin: 0;
+    font-size: 2.5em;
+    color:black;
+    margin-top:210px;
+}
+.marquee {
+    width: 100%;
+    color: white;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor:none;
+    position:sticky;
+    box-sizing: border-box;
+    font-size:1em;
+    font-family: 'Nunito', sans-serif;
+}
+.marquee p {
+    display: inline-block;
+    padding: 10px;
+    animation: marquee 12s linear infinite;
+}
+
+@keyframes marquee {
+    0% { transform: translateX(200%); }
+    100% { transform: translateX(-100%); }
+}
+
+/*.section1 p {
+    margin: 10px 0 0;
+    font-size: 1.2em;
+    color:#ff7b00;
+}*/
+
+.content {
+    padding: 20px;
+    text-align: left;
+    margin: 20px auto;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content section {
+    margin-bottom: 20px;
+}
+
+.content h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.content p, .content ul {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.content ul {
+    padding-left: 20px;
+}
+
+.content ul li {
+    margin-bottom: 10px;
+}
+
+blockquote {
+    font-style: italic;
+    color: #555;
+    margin: 10px 0;
+    padding-left: 20px;
+    border-left: 3px solid #ccc;
+}
+
+
+footer{
+	background-color:#139ae8;
+	color:white;
+	margin: 0;
+	padding:20px;
+	text-align: center;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+footer p{
+	margin:0;
+	font-size:20px;
+	font-family: 'Nunito', sans-serif;
+}
+footer nav ul{
+	list-style: none;
+	padding: 0;
+	margin:0;
+	display:flex;
+	gap:20px;
+}
+footer nav ul li{
+	margin: 0;
+}
+footer nav ul li a{
+	color:#fff;
+	text-decoration: none;
+	font-size:20px;
+	font-family: 'Nunito', sans-serif;
+}
+footer nav ul li a:hover{
+	text-decoration:underline;
+}
